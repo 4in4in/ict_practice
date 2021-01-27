@@ -1,6 +1,6 @@
 ## Сборка образа Docker из репозитория ##
 
-https://raw.githubusercontent.com/<username>/<repository>/main/Dockerfile
+https://raw.githubusercontent.com/username/repository/main/Dockerfile
 
-<username> - имя пользователя
-<repository> - название репозитория
+username - имя пользователя
+repository - название репозитория
