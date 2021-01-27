@@ -30,4 +30,5 @@ __mongo__ - имя контейнера с mongodb из файла docker-compos
     ports: 
       - 5006:5006
     links:
-      - mongo```
+      - mongo
+      ```
