@@ -24,10 +24,10 @@ __mongo__ - имя контейнера с mongodb из файла docker-compos
 
 Чтобы требуемый контейнер увидел mongodb, нужно прописать его в разделе links:
 
-  ###backend_test2:
-    ###image: backend_test2:latest
-    ###restart: always
-    ###ports: 
-      ###- 5006:5006
-    ###links:
-      ###- mongo
+  ```backend_test2:
+    image: backend_test2:latest
+    restart: always
+    ports: 
+      - 5006:5006
+    links:
+      - mongo```
