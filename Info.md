@@ -24,10 +24,32 @@ __mongo__ - имя контейнера с mongodb из файла docker-compos
 
 Чтобы требуемый контейнер увидел mongodb, нужно прописать его в разделе links:
 
-  ```backend_test2:
+  `backend_test2:
     image: backend_test2:latest
     restart: always
     ports: 
       - 5006:5006
     links:
-      - mongo```
+      - mongo`
+ 
+ ## Прописка контейнера в nginx.conf ##
+ 
+ Вверху файла
+ 
+ `    upstream backend_test2 {
+      server backend_test2:5006;  `
+      
+__backend_test2 №1__ - имя хоста?
+
+__backend_test2 №2__ - имя образа и порт, который он использует
+
+Внизу файла (блок server)
+
+`      location /api/questionnaries/ {
+        proxy_pass http://backend_test2/;
+      }`
+      
+После __location__ идет адрес на сервере, по которому будет работать контейнер
+
+После __proxy_pass__ - имя из __upstream__
+      
