@@ -7,7 +7,7 @@ https://raw.githubusercontent.com/username/repository/main/Dockerfile
 
 ## Вход в консоль mongodb ##
 
-__sudo docker exec -it deployment_mongo_1 mongo__
+`sudo docker exec -it deployment_mongo_1 mongo`
 
 От администратора:
 __admin -u name -p password__
@@ -53,3 +53,9 @@ __backend_test2 №2__ - имя образа и порт, который он и
 
 После __proxy_pass__ - имя из __upstream__
       
+## Docker-compose ##
+
+`sudo docker-compose up -d` - запустить то, что прописано в __docker-compose.yml__? -d - фоновый режим
+
+`sudo docker-compose -f docker-compose.yml up` - перезапустить то, что прописано в __docker_compose.yml__
+
