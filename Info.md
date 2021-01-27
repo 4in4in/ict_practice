@@ -7,4 +7,4 @@ https://raw.githubusercontent.com/username/repository/main/Dockerfile
 
 ## Вход в консоль mongodb ##
 
-__sudo docker exec -it deployment_mongo_1 mongo 
+__sudo docker exec -it deployment_mongo_1 mongo__
