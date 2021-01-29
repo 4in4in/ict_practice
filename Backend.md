@@ -6,9 +6,7 @@ __Методы:__ get
 
 __Аргументы:__ questionnary_name
 
-__Пример работы:__ 
-
-__Доступные опросники:__ test_questionnary, omo
+__Доступные опросники:__ [test_questionnary](https://employment-assistant.onti.actcognitive.org/api/questionnaries/get_questionnary?questionnary_name=test_questionnary), [omo](https://employment-assistant.onti.actcognitive.org/api/questionnaries/get_questionnary?questionnary_name=omo)
 
 ## Отправка ответов ##
 
