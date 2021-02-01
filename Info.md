@@ -61,4 +61,4 @@ __backend_test2 №2__ - имя образа и порт, который он и
 
 ## Yarn не хотел запускаться ##
 
-Решение было найдено [https://laracasts.com/discuss/channels/laravel/sh-1-cross-env-permission-denied](здесь).
+Решение было найдено [здесь](https://laracasts.com/discuss/channels/laravel/sh-1-cross-env-permission-denied).
