@@ -59,3 +59,6 @@ __backend_test2 №2__ - имя образа и порт, который он и
 
 `sudo docker-compose -f docker-compose.yml up` - перезапустить то, что прописано в __docker_compose.yml__
 
+## Yarn не хотел запускаться ##
+
+Решение было найдено [https://laracasts.com/discuss/channels/laravel/sh-1-cross-env-permission-denied](здесь).
