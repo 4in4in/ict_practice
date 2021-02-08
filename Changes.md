@@ -2,8 +2,7 @@
 
 ___nginx.conf___
 
-`
-  http {
+`http {
   
   ...
   
@@ -22,6 +21,5 @@ ___nginx.conf___
     proxy_pass http://backend_test2/;
   }
   
-  }
-`
+  }`
 XXX
