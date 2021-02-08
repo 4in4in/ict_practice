@@ -26,7 +26,7 @@ http {
   }
 ```  
   
-docker-compose.yml
+___docker-compose.yml___
 
 ```
 ...
